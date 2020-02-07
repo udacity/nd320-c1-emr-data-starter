@@ -5,7 +5,7 @@ In order to achieve your goal you must build a regression model that can predict
 
 **Expected Hospitalization Time Regression Model:** Utilizing a synthetic dataset(denormalized at the line level augmentation) built off of the UCI Diabetes readmission dataset, students will build a regression model that predicts the expected days of hospitalization time and then convert this to a binary prediction of whether to include or exclude that patient from the clinical trial.
 
-This project will demonstrate the importance of building the right data representation at the encounter level, with appropriate filtering and preprocessing/feature engineering of key medical code sets. This project will also require students to analyze and interpret their model for biases across key demographic groups. Please see the project rubric here for more details on the areas your project will be evaluated -https://github.com/udacity/AIHCND_C1/blob/master/project/PROJECT_RUBRIC.md.
+This project will demonstrate the importance of building the right data representation at the encounter level, with appropriate filtering and preprocessing/feature engineering of key medical code sets. This project will also require students to analyze and interpret their model for biases across key demographic groups. 
 ### Dataset
 Due to healthcare PHI regulations (HIPAA, HITECH), there are limited number of publicly available datasets and some datasets require training and approval. So, for the purpose of this exercise, we are using a dataset from UC Irvine that has been modified for this course. Please note that it is limited in its representation of some key features such as diagnosis codes which are usually an unordered list in 835s/837s (the HL7 standard interchange formats used for claims and remits).
 
@@ -13,7 +13,7 @@ Due to healthcare PHI regulations (HIPAA, HITECH), there are limited number of p
 
 ## Getting Started
 
-Follow the instructions in starter_code/diabetes_drug_testing.ipynb to get started!
+Follow the instructions in starter_code/student_project.ipynb to get started!
 
 
 ### Dependencies
@@ -63,8 +63,8 @@ If you'd like to learn more about version control and using `git` from the comma
 
 1. Clone the repository, and navigate to the downloaded folder. This may take a minute or two to clone due to the included image data.
 ```
-git clone https://github.com/udacity/AIHCND_C1.git
-cd AIHCND_C1
+git clone https://github.com/udacity/nd320-c1-emr-data-starter.git
+cd nd320-c1-emr-data-starter
 ```
 
 2. Create (and activate) a new environment, named `udacity-ehr-env` with Python 3.7. If prompted to proceed with the install `(Proceed [y]/n)` type y.
