@@ -7,7 +7,7 @@ patient_nbr,"numeric ID
 race,categorical,"Values: Caucasian, Asian, African American, Hispanic, and other"
 gender,categorical,"Values: male, female, and unknown/invalid"
 age,bucketed numerical feature (converted to categorical),"Grouped in 10-year intervals: [0, 10), [10, 20), . . ., [90, 100)"
-weight,numerical,Weight in pounds.
+weight,numerical,Weight in kilograms (kg).
 admission_type_id,categorical,"Integer identifier corresponding to 9 distinct values, for example, emergency, urgent, elective, newborn, and not available"
 discharge_disposition_id,categorical,"Integer identifier corresponding to 29 distinct values, for example, discharged to home, expired, and not available"
 admission_source_id,categorical,"nteger identifier corresponding to 21 distinct values, for example, physician referral, emergency room, and transfer from a hospital"
