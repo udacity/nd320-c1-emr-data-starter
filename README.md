@@ -85,10 +85,12 @@ cd nd320-c1-emr-data-starter
 
 
 
-6. Install a few required pip packages, which are specified in the requirements text file. Be sure to run the command from the project root directory since the requirements.txt file is there.
+6. Install a few required pip packages, which are specified in the requirements text file. Be sure to run the command from the project root directory since the requirements.txt file is there. I also added a line for installing the environment in your notebook in case this is new for you. You should be able to now look for the environment when you select the kernel.
  
 ```
 pip install -r requirements.txt
+ipython3 kernel install --name udacity-ehr-env --user
+
 ```
 
 
