@@ -34,11 +34,12 @@ def preprocess_df(df, categorical_col_list, numerical_col_list, predictor, categ
     return df
 
 #adapted from https://www.tensorflow.org/tutorials/structured_data/feature_columns
-def df_to_dataset(df, predictor,  batch_size=32):
+def df_to_dataset(df, predictor,  batch_size=32, shuffle=True):
     df = df.copy()
     labels = df.pop(predictor)
     ds = tf.data.Dataset.from_tensor_slices((dict(df), labels))
-    ds = ds.shuffle(buffer_size=len(df))
+    if shuffle:
+        ds = ds.shuffle(buffer_size=len(df))
     ds = ds.batch(batch_size)
     return ds
 
