@@ -1,5 +1,5 @@
 
-If you want to download course exercises to your local computer, instead of using the provided workspaces, you will find the information below helpful.
+If you want to download course exercises/project files to your local computer, instead of using the provided workspaces, you will find the information below helpful.
 
 ### Lesson Folder
 
