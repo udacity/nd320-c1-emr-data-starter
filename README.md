@@ -1,4 +1,6 @@
 
+If you want to download course exercises to your local computer, instead of using the provided workspaces, you will find the information below helpful.
+
 ### Lesson Folder
 
 This repo contains a folder for each `lesson` and one `project` folder.
